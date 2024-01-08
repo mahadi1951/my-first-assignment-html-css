@@ -112,3 +112,33 @@ header {
   margin-top: 3.5144rem;
   margin-right: 7.91rem;
 }
+.time-container {
+  background-image: linear-gradient(
+    rgba(102, 0, 0, 0.1) 0%,
+    rgba(102, 0, 0, 0) 100%
+  );
+  text-align: center;
+  border-radius: 1rem;
+}
+.time-place {
+  font-size: 1.66rem;
+  margin-bottom: 1rem;
+}
+.items {
+  padding-top: 5.15622rem;
+}
+.items-button {
+  padding: 0.824rem 1.66rem;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  font-size: 1rem;
+  margin-top: 2.477rem;
+  color: #fff;
+  font-weight: 700;
+}
+.red-text {
+  color: #f00;
+}
