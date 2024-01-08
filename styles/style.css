@@ -1,0 +1,114 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  padding-top: 2.58233rem;
+}
+
+.banner-container {
+  background-image: url('../resources/img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.banner-title {
+  width: 100%;
+  background-image: linear-gradient(#070707, #07021100);
+}
+.banner-text {
+  padding: 11.05rem 15%;
+  filter: brightness();
+  text-align: center;
+}
+.banner-small-text {
+  color: #fff;
+  font-family: 'merriweather';
+  font-size: 1.66rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+.banner-large-text {
+  font-family: 'merriweather', serif;
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800px;
+  line-height: 5.937rem;
+}
+/* off section */
+.off-section-container {
+  text-align: center;
+}
+.off-red-text {
+  color: #f00;
+  text-align: center;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fourth-red-text {
+  color: #f00;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.middle-heading-text {
+  color: #070211;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* party section */
+.party-container {
+  background-image: url('../resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+  background-size: cover;
+  overflow: hidden;
+}
+.all-party {
+  background-image: linear-gradient(to right, #070212, #07021112);
+  display: flex;
+  justify-content: space-between;
+}
+.party-texts {
+  padding: 7.7rem;
+  padding-right: 1.9rem;
+}
+.party-texts .heading-three-party {
+  line-height: 4.5377rem;
+}
+.party-texts p {
+  color: #ffffffdf;
+}
+.heading-three-party {
+  color: #fff;
+  font-family: 'Merriweather';
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 640px;
+}
+.party-texts-button {
+  background: none;
+  border: none;
+  color: hsla(0, 0%, 100%, 0.926);
+  font-size: 0.9281rem;
+  border-radius: 0.5rem;
+  padding: 1.66rem 1.238rem;
+  text-decoration: none;
+}
+.image-party {
+  margin-top: 3.5144rem;
+  margin-right: 7.91rem;
+}
