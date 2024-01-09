@@ -12,6 +12,8 @@ header {
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
+  width: 1128px;
+  margin: auto;
 }
 .banner-title {
   width: 100%;
@@ -73,6 +75,7 @@ header {
   border-radius: 1rem;
   background-size: cover;
   overflow: hidden;
+  margin-top: 70px;
 }
 .all-party {
   background-image: linear-gradient(to right, #070212, #07021112);
