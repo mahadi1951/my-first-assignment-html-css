@@ -238,3 +238,39 @@ p {
   justify-content: center;
   align-items: center;
 }
+.newsletter-container {
+  text-align: center;
+  border-radius: 1rem;
+  background: rgba(255, 0, 0, 0.004);
+  padding: 4.124rem 0;
+}
+.newsletter-container > p {
+  padding: 0 11rem;
+}
+.newsletter-container .comming-text {
+  margin-top: 2.07rem;
+  margin-bottom: 1.14rem;
+}
+.sub-box input[type='email'] {
+  padding: 1.25rem 14rem 1.27rem 1.55rem;
+  border: none;
+  outline: none;
+  border-radius: 3.13rem 0 0 3.13rem;
+  margin-right: 0;
+  background-color: #edb6b6;
+  background-size: cover;
+}
+.sub-box input[type='submit'] {
+  padding: 1rem 2.47rem;
+  background-color: #f00;
+  border: none;
+  outline: none;
+  font-size: 1.03125rem;
+  font-weight: 600;
+  margin-left: 0;
+  border-radius: 0 3.13rem 3.13rem 0;
+  transition: all 0.5s;
+}
+.sub-box input[type='submit']:hover {
+  background-color: rgba(163, 12, 12, 0.983);
+}
