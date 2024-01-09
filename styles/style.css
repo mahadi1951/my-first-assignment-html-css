@@ -42,6 +42,8 @@ header {
 /* off section */
 .off-section-container {
   text-align: center;
+  /* width: 1128px; */
+  margin: auto;
 }
 .off-red-text {
   color: #f00;
@@ -76,6 +78,7 @@ header {
   background-size: cover;
   overflow: hidden;
   margin-top: 70px;
+  /* width: 1128px; */
 }
 .all-party {
   background-image: linear-gradient(to right, #070212, #07021112);
@@ -141,7 +144,97 @@ header {
   margin-top: 2.477rem;
   color: #fff;
   font-weight: 700;
+  border-radius: 7px;
 }
 .red-text {
   color: #f00;
+}
+.comming-container {
+  display: flex;
+  align-items: center;
+}
+.passage-one h4 {
+  margin-bottom: 1rem;
+}
+.passage-two {
+  margin-left: 4rem;
+  margin-right: 6rem;
+}
+.passage-two img {
+  border-radius: 50%;
+  padding: 3.1rem;
+  border: 1.1rem solid #f00;
+}
+.heading-text-r {
+  color: #f00;
+  /* font-family: 'inter'; */
+  font-size: 1.233rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+.comming-text {
+  color: #070211;
+  font-family: 'merriweather', serif;
+  font-size: 2.485rem;
+  font-weight: 800;
+  margin: 1rem;
+}
+p {
+  color: #070211e7;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  margin: 1rem;
+}
+.heading-year {
+  color: rgb(255, 7, 7);
+  font-size: 30px;
+  margin: 15px;
+}
+.sale-container {
+  text-align: center;
+}
+.sale-img {
+  background-image: url('../resources/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 42rem;
+  border-radius: 1rem;
+}
+.sale-img .image-one {
+  width: 39%;
+  padding-left: 62%;
+}
+.image-two {
+  position: relative;
+  bottom: 55%;
+  right: -10%;
+}
+.sale-heading {
+  color: #070211c6;
+  font-size: 1.23rem;
+  font-weight: 500;
+}
+/* section portfolio */
+.paragraph-text {
+  max-width: 70%;
+}
+.portfolio-container .row {
+  display: flex;
+  margin-top: 1.6rem;
+  gap: 1.5rem;
+}
+.portfolio-container .images {
+  margin-top: 2.475rem;
+}
+.portfolio-container img:hover {
+  scale: 110%;
+  box-shadow: 0.1rem 0 0.1rem 0 0.5rem rgb(50, 50, 50);
+}
+.img {
+  box-shadow: 0.1rem 0 0.1rem 0 0.5rem rgb(50, 50, 50);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
