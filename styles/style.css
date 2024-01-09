@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  width: 1128px 1128px;
 }
 header {
   padding-top: 2.58233rem;
@@ -12,7 +13,7 @@ header {
   background-size: cover;
   border-radius: 1rem;
   overflow: hidden;
-  width: 1128px;
+  /* width: 1128px; */
   margin: auto;
 }
 .banner-title {
@@ -125,6 +126,7 @@ header {
   );
   text-align: center;
   border-radius: 1rem;
+  margin-top: 70px;
 }
 .time-place {
   font-size: 1.66rem;
@@ -148,10 +150,12 @@ header {
 }
 .red-text {
   color: #f00;
+  margin: 1rem;
 }
 .comming-container {
   display: flex;
   align-items: center;
+  margin-top: 70px;
 }
 .passage-one h4 {
   margin-bottom: 1rem;
@@ -192,6 +196,7 @@ p {
 }
 .sale-container {
   text-align: center;
+  margin-top: 70px;
 }
 .sale-img {
   background-image: url('../resources/Rectangle\ 2.png');
@@ -216,6 +221,9 @@ p {
   font-weight: 500;
 }
 /* section portfolio */
+.portfolio-container {
+  margin-top: 70px;
+}
 .paragraph-text {
   max-width: 70%;
 }
@@ -243,6 +251,7 @@ p {
   border-radius: 1rem;
   background: rgba(255, 0, 0, 0.004);
   padding: 4.124rem 0;
+  margin-top: 70px;
 }
 .newsletter-container > p {
   padding: 0 11rem;
@@ -273,4 +282,47 @@ p {
 }
 .sub-box input[type='submit']:hover {
   background-color: rgba(163, 12, 12, 0.983);
+}
+.footer-container-one {
+  margin-top: 70px;
+}
+footer {
+  background: #070211f3;
+  padding-top: 6.1875rem;
+  padding-bottom: 6.1875rem;
+}
+footer p {
+  color: #fff;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col-p-r-7 {
+  padding-right: 7rem;
+}
+.col-p-r-7 p {
+  display: flex;
+  align-items: center;
+  gap: 0.825rem;
+}
+footer .social {
+  margin: 2.46rem auto;
+}
+footer .social img {
+  margin-left: 1.236rem;
+  transition: all 0.5s;
+}
+footer .social img:hover {
+  scale: 100%;
+}
+footer .footer-container {
+  margin: 0;
+}
+footer hr {
+  background: #ffffff26;
+  border: 1px solid #ffffff26;
+}
+footer a {
+  text-decoration: none;
 }
