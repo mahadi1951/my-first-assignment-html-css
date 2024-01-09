@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 1128px 1128px;
+  /* width: 1128px 1128px; */
 }
 header {
   padding-top: 2.58233rem;
@@ -219,7 +219,7 @@ header {
 }
 /* section portfolio */
 .portfolio-container {
-  /* margin-top: 70px; */
+  margin-top: 70px;
   width: 1128px;
   margin: auto;
   overflow: hidden;
